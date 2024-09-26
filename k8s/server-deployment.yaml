@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: chriswyc/multi-server
+          image: rallycoding/multi-server
           ports:
             - containerPort: 5000
           env:
